@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
+
+#ari{
+   font-family: como;
+    letter-spacing: 5px;
+}
+#new-coll{
+    font-family: como;    
+    color: black;
+    font-size: 400%;
+    margin-bottom: 20%;
+    margin-left: 50%; 
+}
+#exploree{
+    margin-bottom: 15%;
+    margin-left: 50%;      
+}#aftr{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+}div>h3{
+    font-family: Poppins, sans-serif;
+line-height: 30px;
+font-weight: 500    ;
+}
+#lining{
+    color: red;
+    
+}
+h5{
+    color: rgba(224, 182, 182,0.5);
+    background-repeat: no-repeat;
+}
+@media(max-width: 768px) {
+    #abbb{
+        display: grid;
+        width: 70%;
+        margin: 20%;
+    }
+}
+.new-arrivals .banner-info{
+    bottom: 30px;
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    z-index: 9;
+    padding: 0 15px;
+    
+   
+}
+#shopping{
+    
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    color: black;
+     text-decoration: none;
+}
+
+.new-arrivals .card-banner:nth-child(2) h2,
+.new-arrivals .card-banner:nth-child(2) p,
+.new-arrivals .card-banner:nth-child(2) a{
+    color:var(--black-color);
+}
+
+.new-arrivals .card-banner:nth-child(2) a::before,
+.new-arrivals .card-banner:nth-child(2) a::after{
+    background-color: var(--black-color);
+}
+.new-arrivals .card-banner .card-thumb ,
+.products .item-product{
+    position: relative;
+    display: block;
+    overflow: hidden;
+
+}
+.new-arrivals .card-banner .card-thumb img,
+.products .item-product img{
+    transition: all 0.5s ease-out 0s;
+}
+.new-arrivals .card-banner .card-thumb img:hover,
+.products .item-product img:hover
+{
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+#abbb,#imagee1{
+    transition: all 0.5s ease-out 0s;
+}
+#abbb:hover{
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+#imagee1:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.abcde{
+    color: white;
+}
+#footingss{
+    background-color: rgb(255, 243, 243);
+    color: black;
+border-left: 10% solid black;
+}
+li>a{
+    color: rgb(170, 41, 41);
+}.b-example-divider {
+    height: 3rem;
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 0.5s ease;
+}
+#imagee1:hover .overlay{
+    height: 25%;
+    display: grid;
+    border-radius: 2%;
+    cursor: pointer;
+}
+.navclickss:hover{
+    color: red;
+   font-weight: 500;
+}
